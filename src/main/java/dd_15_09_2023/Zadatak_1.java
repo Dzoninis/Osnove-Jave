@@ -9,6 +9,18 @@ public class Zadatak_1 {
         Trener trener_1 = new Trener("Milorad Miljkovic", "19879987998", 1973, 20, "kondicioni trener");
         Trener trener_2 = new Trener("Nenad Vasic", "0298789878", 1970, 19, "pomocni trener");
 
+        Kartoni zuti = new Kartoni("zuti karton");
+        Kartoni crveni = new Kartoni("crveni karton");
+
+        igrac_1.dodajKarton(zuti);
+        igrac_1.dodajKarton(zuti);
+        igrac_1.dodajKarton(zuti);
+        igrac_1.dodajKarton(crveni);
+        igrac_1.dodajKarton(crveni);
+
+        igrac_2.dodajKarton(zuti);
+        igrac_2.dodajKarton(zuti);
+        igrac_2.dodajKarton(crveni);
 
         igrac_1.stampajOsobu();
         System.out.println();
